@@ -11,7 +11,7 @@ confirm.onclick = function() {
   let chars = "";
   let password = "";
   
-  chars += upper.checked ? "ABCDEFGHIJKLMNOP" : "";
+  chars += upper.checked ? "ABCDEFGHIJKLMNOPQRSTUVWXYZ" : "";
   
   chars += lower.checked ? "abcdefghijklmnopqrstuvwxyz" : "";
   
