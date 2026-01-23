@@ -1,0 +1,49 @@
+body{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+section{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 90px 60px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 15px 15px 15px grey;
+}
+input{
+    accent-color: hsla(2, 95%, 53%, 0.9);
+    text-align: left;
+    font-size: 1rem;
+}
+#length{
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#confirm{
+    border: none;
+    background-color: hsla(180, 80%, 50%, .8);
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+#confirm:active{
+    transform: scale(.95);
+}
+button{
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 15px;
+    width: 75px;
+}
+#pass{
+    word-break: break-all;
+}

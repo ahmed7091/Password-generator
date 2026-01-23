@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Password generator</title>
+  
+  <!-- HTML -->
+  
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icon.png"/>
+</head>
+
+<body>
+  
+  
+  <section>
+  <h1>Password generator</h1><br>
+  <label>
+    <input type="checkbox" id="upper">
+    Include uppercase
+  </label><br>
+  <label>
+    <input type="checkbox" id="lower">
+    Include lowercase
+  </label><br>
+
+  <label>
+    <input type="checkbox" id="symbols">
+    Include symbols
+  </label><br>
+
+  <label>
+    <input type="checkbox" id="numbers">
+    Include numbers
+  </label><br><br>
+  
+  <label>
+    Password length
+    <input type="number" id="length" value="8">
+  </label><br><br>
+  <button id="confirm">Generate password</button><br>
+  <p id="result"></p>
+  <p id="pass"></p>
+</section>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
