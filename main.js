@@ -4,6 +4,7 @@ const symbols = document.getElementById('symbols');
 const numbers = document.getElementById('numbers');
 const confirm = document.getElementById('confirm');
 const result = document.getElementById('result');
+const pass = document.getElementById('pass');
 const pwdLength = document.getElementById("length");
 
 
@@ -38,9 +39,7 @@ confirm.onclick = function() {
     }
     
     result.textContent = `Generated password:`;
-    document.getElementById('pass').textContent = password;
+    pass.textContent = password;
     
   }
 }
-// Github 2nd account pwd: 8ixd4yrBtluaxh&IJ
-// 2nd Gmail password: 
