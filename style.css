@@ -32,9 +32,10 @@ input{
     padding: 5px;
     color: black;
     font-weight: bold;
+    transitio: .5s;
 }
 #confirm:active{
-    transform: scale(.95);
+    transform: scale(.9);
 }
 button{
     border: 1px solid black;
