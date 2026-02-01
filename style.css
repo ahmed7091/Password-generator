@@ -32,7 +32,7 @@ input{
     padding: 5px;
     color: black;
     font-weight: bold;
-    transitio: .5s;
+    transition: .5s;
 }
 #confirm:active{
     transform: scale(.9);
